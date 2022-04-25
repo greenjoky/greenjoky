@@ -1,0 +1,25 @@
+canvas#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto auto;
+}
+
+img#install {
+    position: absolute;
+    top: 0;
+    width: 15vw;
+}
+
+@media screen and (max-aspect-ratio: 16/9) {
+    canvas#game {
+        width: 100vw;
+    }
+}
+
+@media screen and (min-aspect-ratio: 16/9) {
+    canvas#game {
+        height: 100vh;
+    }
+}
